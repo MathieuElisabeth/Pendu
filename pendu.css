@@ -1,16 +1,19 @@
-body{
+body {
   background-color: #581845;
 }
-h1{
+
+h1 {
   text-align: center;
   font-size: 50px;
   color: #BD3348;
   font-family: 'Pacifico', cursive;
   margin-top: auto;
 }
-.container{
-  height: 70vh;
-  max-width : 100%;
+
+.container {
+  position: relative;
+  height: 600px;
+  max-width: 100%;
   background-color: #900C3F;
   border-radius: 15px;
   display: flex;
@@ -18,39 +21,54 @@ h1{
   justify-content: flex-end;
   align-items: center;
 }
-.clavier{
-  position: relative;
+
+.mot {
+  position: absolute;
+  top: 10px;
+}
+
+canvas {
+  margin: auto;
+  margin-top: 60px;
+}
+
+.clavier {
+  position: absolute;
+  bottom: 10px;
   height: 200px;
-  max-width : 100%;
+  max-width: 100%;
   border-radius: 15px;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-gap: 10px;
   order: 3;
 }
-.letter{
+
+.letter {
   height: 50px;
-  width : 50px;
+  width: 50px;
   border: 1px solid black;
   border-radius: 10px;
   font-family: 'Pacifico', cursive;
   font-size: 30px;
   text-align: center;
-  box-shadow: 3px 3px  black;
+  box-shadow: 3px 3px black;
   color: #BD3348;
   background-color: #FCF7CD;
   cursor: pointer;
 }
-.letter:hover{
+
+.letter:hover {
   color: #FCF7CD;
   background-color: #BD3348;
 }
-.letter:active{
+
+.letter:active {
   color: #FCF7CD;
   background-color: #80202E;
 }
 
-table{
+table {
   height: 100px;
   max-width: 100%;
   font-family: 'Pacifico', cursive;
