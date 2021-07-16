@@ -68,6 +68,10 @@ canvas {
   background-color: #80202E;
 }
 
+.opacity {
+  opacity: 0.5;
+}
+
 table {
   height: 100px;
   max-width: 100%;
